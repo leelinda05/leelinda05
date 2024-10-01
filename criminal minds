@@ -1,0 +1,57 @@
+- <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Criminal Minds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Vídeos - Criminal Minds</h1>
+    </header>
+    <main>
+        <div class="video-card">
+            <img src="imagem1.jpg" alt="Título do Vídeo 1">
+            <h2>Título do Vídeo 1</h2>
+            <p>Descrição do vídeo 1.</p>
+        </div>
+        <div class="video-card">
+            <img src="imagem2.jpg" alt="Título do Vídeo 2">
+            <h2>Título do Vídeo 2</h2>
+            <p>Descrição do vídeo 2.</p>
+        </div>
+        <!-- Adicione mais vídeos conforme necessário -->
+    </main>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e1e31;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.video-card {
+    background-color: #1e2a3a;
+    border: 1px solid #0056b3;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.video-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
